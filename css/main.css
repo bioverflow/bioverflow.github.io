@@ -1661,7 +1661,8 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .header-menu-toggle.opaque .header-menu-text {
-    background-color: #000000;
+	background-color: #000000;
+	padding-bottom: 1px;
 }
 
 .header-menu-toggle:hover, .header-menu-toggle:focus {
