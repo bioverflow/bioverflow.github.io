@@ -49,5 +49,5 @@ function alertExample(e) {
 }
 
 function redirectExample(e) {
-  window.location('https://reversebytes.wordpress.com');
+  window.location.assign('https://reversebytes.wordpress.com');
 }
