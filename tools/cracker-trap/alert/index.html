@@ -21,22 +21,25 @@
 
 <body data-example="alert">
   <header>
-    <h1>Cracker Trap</h1>
+    <h1>Cracker Trap Alert</h1>
   </header>
   <section class="container">
     <section class="banner hacked" id="banner">Try opening the console to show an alert</section>
-    <div class="button-wrap"><button data-dialog="somedialog" class="trigger">Open Dialog</button></div>
+    <div class="button-wrap">
+      <button data-dialog="somedialog" class="trigger">Open Dialog</button>
+    </div>
   </section>
 
   <div id="somedialog" class="dialog">
     <div class="dialog__overlay"></div>
     <div class="dialog__content">
-      <h2><strong>Sorry</strong>, but you have opened Developer Tools and you can't continue using this app.</h2>
+      <h2>
+        <strong>Sorry</strong>, but you have opened Developer Tools and you can't continue using this app.</h2>
     </div>
   </div>
 
   <script src="../js/classie.js"></script>
-	<script src="../js/dialogFx.js"></script>
+  <script src="../js/dialogFx.js"></script>
   <script src="https://cdn.rawgit.com/bioverflow/cracker-trap/7eded449/build/cracker-trap.min.js"></script>
   <script src="../js/script.js"></script>
 </body>
