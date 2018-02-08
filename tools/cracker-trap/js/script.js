@@ -14,6 +14,8 @@ window.addEventListener('onDevToolsChange', function (e) {
     case 'redirect':
       redirectExample(e);
       break;
+    case 'destroy':
+      destroyExample(e);
     default:
       break;
   }
@@ -50,4 +52,8 @@ function alertExample(e) {
 
 function redirectExample(e) {
   window.location.assign('https://reversebytes.wordpress.com');
+}
+
+function destroyExample(e){
+  document.querySelector("html").innerHTML='<h1 style="width:100%;text-align:center;"><strong>Sorry</strong>, but you have opened Developer Tools and you can\'t continue using this app.</h1>'
 }
